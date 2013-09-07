@@ -4,6 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Itens.h"
 
 @interface JMPModel : NSObject
 
