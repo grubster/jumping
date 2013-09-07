@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A42254417DAAAD600201BD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A42254317DAAAD600201BD8 /* UIKit.framework */; };
+		3A42254617DAAAD600201BD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A42254517DAAAD600201BD8 /* Foundation.framework */; };
+		3A42254817DAAAD600201BD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A42254717DAAAD600201BD8 /* CoreGraphics.framework */; };
+		3A42254E17DAAAD600201BD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A42254C17DAAAD600201BD8 /* InfoPlist.strings */; };
+		3A42255017DAAAD600201BD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42254F17DAAAD600201BD8 /* main.m */; };
+		3A42255417DAAAD600201BD8 /* JMPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42255317DAAAD600201BD8 /* JMPAppDelegate.m */; };
+		3A42255617DAAAD600201BD8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A42255517DAAAD600201BD8 /* Default.png */; };
+		3A42255817DAAAD600201BD8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A42255717DAAAD600201BD8 /* Default@2x.png */; };
+		3A42255A17DAAAD600201BD8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A42255917DAAAD600201BD8 /* Default-568h@2x.png */; };
+		3A42255D17DAAAD600201BD8 /* JMPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42255C17DAAAD600201BD8 /* JMPMainViewController.m */; };
+		3A42256017DAAAD600201BD8 /* JMPMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A42255E17DAAAD600201BD8 /* JMPMainViewController.xib */; };
+		3A42256A17DAAD7300201BD8 /* JMPEditItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42256817DAAD7300201BD8 /* JMPEditItem.m */; };
+		3A42256B17DAAD7300201BD8 /* JMPEditItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A42256917DAAD7300201BD8 /* JMPEditItem.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A42254017DAAAD600201BD8 /* Jumping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jumping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A42254317DAAAD600201BD8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A42254517DAAAD600201BD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A42254717DAAAD600201BD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A42254B17DAAAD600201BD8 /* Jumping-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jumping-Info.plist"; sourceTree = "<group>"; };
+		3A42254D17DAAAD600201BD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A42254F17DAAAD600201BD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A42255117DAAAD600201BD8 /* Jumping-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jumping-Prefix.pch"; sourceTree = "<group>"; };
+		3A42255217DAAAD600201BD8 /* JMPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMPAppDelegate.h; sourceTree = "<group>"; };
+		3A42255317DAAAD600201BD8 /* JMPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMPAppDelegate.m; sourceTree = "<group>"; };
+		3A42255517DAAAD600201BD8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3A42255717DAAAD600201BD8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3A42255917DAAAD600201BD8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3A42255B17DAAAD600201BD8 /* JMPMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMPMainViewController.h; sourceTree = "<group>"; };
+		3A42255C17DAAAD600201BD8 /* JMPMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMPMainViewController.m; sourceTree = "<group>"; };
+		3A42255F17DAAAD600201BD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JMPMainViewController.xib; sourceTree = "<group>"; };
+		3A42256717DAAD7300201BD8 /* JMPEditItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPEditItem.h; sourceTree = "<group>"; };
+		3A42256817DAAD7300201BD8 /* JMPEditItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMPEditItem.m; sourceTree = "<group>"; };
+		3A42256917DAAD7300201BD8 /* JMPEditItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMPEditItem.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A42253D17DAAAD600201BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A42254417DAAAD600201BD8 /* UIKit.framework in Frameworks */,
+				3A42254617DAAAD600201BD8 /* Foundation.framework in Frameworks */,
+				3A42254817DAAAD600201BD8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A42253717DAAAD600201BD8 = {
+			isa = PBXGroup;
+			children = (
+				3A42254917DAAAD600201BD8 /* Jumping */,
+				3A42254217DAAAD600201BD8 /* Frameworks */,
+				3A42254117DAAAD600201BD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A42254117DAAAD600201BD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A42254017DAAAD600201BD8 /* Jumping.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A42254217DAAAD600201BD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A42254317DAAAD600201BD8 /* UIKit.framework */,
+				3A42254517DAAAD600201BD8 /* Foundation.framework */,
+				3A42254717DAAAD600201BD8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A42254917DAAAD600201BD8 /* Jumping */ = {
+			isa = PBXGroup;
+			children = (
+				3A42255217DAAAD600201BD8 /* JMPAppDelegate.h */,
+				3A42255317DAAAD600201BD8 /* JMPAppDelegate.m */,
+				3A42255B17DAAAD600201BD8 /* JMPMainViewController.h */,
+				3A42255C17DAAAD600201BD8 /* JMPMainViewController.m */,
+				3A42255E17DAAAD600201BD8 /* JMPMainViewController.xib */,
+				3A42256717DAAD7300201BD8 /* JMPEditItem.h */,
+				3A42256817DAAD7300201BD8 /* JMPEditItem.m */,
+				3A42256917DAAD7300201BD8 /* JMPEditItem.xib */,
+				3A42254A17DAAAD600201BD8 /* Supporting Files */,
+			);
+			path = Jumping;
+			sourceTree = "<group>";
+		};
+		3A42254A17DAAAD600201BD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A42254B17DAAAD600201BD8 /* Jumping-Info.plist */,
+				3A42254C17DAAAD600201BD8 /* InfoPlist.strings */,
+				3A42254F17DAAAD600201BD8 /* main.m */,
+				3A42255117DAAAD600201BD8 /* Jumping-Prefix.pch */,
+				3A42255517DAAAD600201BD8 /* Default.png */,
+				3A42255717DAAAD600201BD8 /* Default@2x.png */,
+				3A42255917DAAAD600201BD8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A42253F17DAAAD600201BD8 /* Jumping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A42256317DAAAD600201BD8 /* Build configuration list for PBXNativeTarget "Jumping" */;
+			buildPhases = (
+				3A42253C17DAAAD600201BD8 /* Sources */,
+				3A42253D17DAAAD600201BD8 /* Frameworks */,
+				3A42253E17DAAAD600201BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jumping;
+			productName = Jumping;
+			productReference = 3A42254017DAAAD600201BD8 /* Jumping.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A42253817DAAAD600201BD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JMP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Grubster;
+			};
+			buildConfigurationList = 3A42253B17DAAAD600201BD8 /* Build configuration list for PBXProject "Jumping" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A42253717DAAAD600201BD8;
+			productRefGroup = 3A42254117DAAAD600201BD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A42253F17DAAAD600201BD8 /* Jumping */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A42253E17DAAAD600201BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A42254E17DAAAD600201BD8 /* InfoPlist.strings in Resources */,
+				3A42255617DAAAD600201BD8 /* Default.png in Resources */,
+				3A42255817DAAAD600201BD8 /* Default@2x.png in Resources */,
+				3A42255A17DAAAD600201BD8 /* Default-568h@2x.png in Resources */,
+				3A42256017DAAAD600201BD8 /* JMPMainViewController.xib in Resources */,
+				3A42256B17DAAD7300201BD8 /* JMPEditItem.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A42253C17DAAAD600201BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A42255017DAAAD600201BD8 /* main.m in Sources */,
+				3A42255417DAAAD600201BD8 /* JMPAppDelegate.m in Sources */,
+				3A42255D17DAAAD600201BD8 /* JMPMainViewController.m in Sources */,
+				3A42256A17DAAD7300201BD8 /* JMPEditItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A42254C17DAAAD600201BD8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A42254D17DAAAD600201BD8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A42255E17DAAAD600201BD8 /* JMPMainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A42255F17DAAAD600201BD8 /* en */,
+			);
+			name = JMPMainViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A42256117DAAAD600201BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A42256217DAAAD600201BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A42256417DAAAD600201BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jumping/Jumping-Prefix.pch";
+				INFOPLIST_FILE = "Jumping/Jumping-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A42256517DAAAD600201BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jumping/Jumping-Prefix.pch";
+				INFOPLIST_FILE = "Jumping/Jumping-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A42253B17DAAAD600201BD8 /* Build configuration list for PBXProject "Jumping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A42256117DAAAD600201BD8 /* Debug */,
+				3A42256217DAAAD600201BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A42256317DAAAD600201BD8 /* Build configuration list for PBXNativeTarget "Jumping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A42256417DAAAD600201BD8 /* Debug */,
+				3A42256517DAAAD600201BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A42253817DAAAD600201BD8 /* Project object */;
+}
