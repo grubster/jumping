@@ -20,6 +20,8 @@
 		3A42256017DAAAD600201BD8 /* JMPMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A42255E17DAAAD600201BD8 /* JMPMainViewController.xib */; };
 		3A42256A17DAAD7300201BD8 /* JMPEditItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42256817DAAD7300201BD8 /* JMPEditItem.m */; };
 		3A42256B17DAAD7300201BD8 /* JMPEditItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A42256917DAAD7300201BD8 /* JMPEditItem.xib */; };
+		3A42256F17DACBD800201BD8 /* JMPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42256E17DACBD800201BD8 /* JMPTableViewCell.m */; };
+		3A42257317DAEAE400201BD8 /* JMPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A42257217DAEAE400201BD8 /* JMPModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,10 @@
 		3A42256717DAAD7300201BD8 /* JMPEditItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPEditItem.h; sourceTree = "<group>"; };
 		3A42256817DAAD7300201BD8 /* JMPEditItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMPEditItem.m; sourceTree = "<group>"; };
 		3A42256917DAAD7300201BD8 /* JMPEditItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMPEditItem.xib; sourceTree = "<group>"; };
+		3A42256D17DACBD800201BD8 /* JMPTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPTableViewCell.h; sourceTree = "<group>"; };
+		3A42256E17DACBD800201BD8 /* JMPTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMPTableViewCell.m; sourceTree = "<group>"; };
+		3A42257117DAEAE400201BD8 /* JMPModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPModel.h; sourceTree = "<group>"; };
+		3A42257217DAEAE400201BD8 /* JMPModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMPModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,8 @@
 		3A42254917DAAAD600201BD8 /* Jumping */ = {
 			isa = PBXGroup;
 			children = (
+				3A42257017DAEAC700201BD8 /* Model */,
+				3A42256C17DACADF00201BD8 /* Cells */,
 				3A42255217DAAAD600201BD8 /* JMPAppDelegate.h */,
 				3A42255317DAAAD600201BD8 /* JMPAppDelegate.m */,
 				3A42255B17DAAAD600201BD8 /* JMPMainViewController.h */,
@@ -113,6 +121,24 @@
 				3A42255917DAAAD600201BD8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A42256C17DACADF00201BD8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3A42256D17DACBD800201BD8 /* JMPTableViewCell.h */,
+				3A42256E17DACBD800201BD8 /* JMPTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		3A42257017DAEAC700201BD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A42257117DAEAE400201BD8 /* JMPModel.h */,
+				3A42257217DAEAE400201BD8 /* JMPModel.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +213,8 @@
 				3A42255417DAAAD600201BD8 /* JMPAppDelegate.m in Sources */,
 				3A42255D17DAAAD600201BD8 /* JMPMainViewController.m in Sources */,
 				3A42256A17DAAD7300201BD8 /* JMPEditItem.m in Sources */,
+				3A42256F17DACBD800201BD8 /* JMPTableViewCell.m in Sources */,
+				3A42257317DAEAE400201BD8 /* JMPModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +337,7 @@
 				3A42256517DAAAD600201BD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
